@@ -163,6 +163,12 @@ ul {
   display: none;
 }
 
+.projpic {
+  display: inline-block;
+  padding: 10px;
+  width: 200px;
+}
+
 img {
   padding: 10px;
 }
@@ -218,4 +224,17 @@ span {
   .biopic {
     display: block;
   }
+}
+
+.attributed .attribution {
+  display: none;
+  position: absolute;
+  /* bottom: 0; */
+  width: 100%;
+  padding: 10px; 
+  background: rgb(255,255,255);
+}
+
+.attributed:hover .attribution {
+  display: block;
 }
